@@ -17,9 +17,8 @@ h1 {
   font-size: 4em;
 }
 
-iframe {
-  margin: 0 auto;
-  min-width: 400px;
+#backpack-image {
+  width: 150px;
 }
 
 .flex-container {

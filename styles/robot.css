@@ -18,8 +18,8 @@ h1 {
 }
 
 iframe {
+  display: block;
   margin: 0 auto;
-  min-width: 400px;
 }
 
 .flex-container {
@@ -38,7 +38,7 @@ iframe {
 }
 
 .flex-item {
-  background: tomato;
+  background: pink;
   padding: 5px;
   width: 200px;
   /*height: 150px;*/
@@ -48,7 +48,7 @@ iframe {
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 

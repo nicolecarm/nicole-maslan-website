@@ -12,6 +12,10 @@ li {
   display: inline;
 }
 
+#paper-image {
+  width: 150px;
+}
+
 h1 {
   text-align: center;
   font-size: 4em;
@@ -41,15 +45,14 @@ iframe {
   background: tomato;
   padding: 5px;
   width: 200px;
-  /*height: 150px;*/
   margin-top: 30px;
-  /*border: 2px dashed grey;*/
-  
-  line-height: 150px;
+  line-height: 50px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 img {
