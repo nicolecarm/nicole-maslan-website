@@ -12,8 +12,14 @@ li {
   display: inline;
 }
 
+#home {
+  position: fixed;
+  width: 50px;
+}
+
 #shapes-image {
-  width: 150px;
+  width: 100px;
+  padding-top: 50px;
 }
 
 h1 {

@@ -12,6 +12,16 @@ li {
   display: inline;
 }
 
+#home {
+  position: fixed;
+  width: 50px;
+}
+
+#robot-image {
+  padding-top: 50px;
+  width: 125px;
+}
+
 h1 {
   text-align: center;
   font-size: 4em;

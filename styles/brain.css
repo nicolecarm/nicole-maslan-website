@@ -12,13 +12,24 @@ li {
   display: inline;
 }
 
-#brain-image {
-  width: 150px;
+#home {
+  position: absolute;
+  width: 50px;
 }
 
-h1 {
+#brain-image {
+  width: 100px;
+}
+
+h1, h3 {
   text-align: center;
-  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+}
+h1 {
+  font-size:3em;
 }
 
 iframe {
@@ -48,6 +59,8 @@ iframe {
   /*height: 150px;*/
   margin-top: 50px;
   padding-top: 50px;
+  padding-bottom: 50px;
+
   
   line-height: 50px;
   color: white;

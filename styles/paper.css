@@ -12,6 +12,11 @@ li {
   display: inline;
 }
 
+#home {
+  position: fixed;
+  width: 50px;
+}
+
 #paper-image {
   width: 150px;
 }
