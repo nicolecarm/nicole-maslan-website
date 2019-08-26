@@ -13,7 +13,18 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 4em;
+  padding-top: 20px;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1em;
 }
 
 .flex-container {

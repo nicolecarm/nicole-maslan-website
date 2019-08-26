@@ -1,5 +1,7 @@
 * {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
@@ -13,24 +15,33 @@ li {
 }
 
 #home {
-  position: absolute;
+  position: fixed;
   width: 50px;
 }
 
 #brain-image {
   width: 100px;
-}
-
-h1, h3 {
-  text-align: center;
+  padding-top: 50px;
 }
 
 h3 {
-  font-size: 2em;
+  padding-top: 30px;
+  text-align: center;
 }
+
 h1 {
-  font-size:3em;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
+
+p {
+  text-align: center;
+  padding: 0 50px 50px 50px;
+  font-size: 1.5em;
+}
+
 
 iframe {
   margin: 0 auto;
@@ -57,10 +68,8 @@ iframe {
   padding: 5px;
   width: 200px;
   /*height: 150px;*/
-  margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-
+  margin-top: 30px;
+  /*border: 2px dashed grey;*/
   
   line-height: 50px;
   color: white;
