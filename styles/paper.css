@@ -19,11 +19,18 @@ li {
 
 #paper-image {
   width: 150px;
+  padding-top: 50px;
 }
 
 h1 {
   text-align: center;
   font-size: 4em;
+}
+
+p {
+  text-align: center;
+  padding: 0 20px 0 20px;
+  font-size: 1.5em;
 }
 
 iframe {
@@ -47,21 +54,22 @@ iframe {
 }
 
 .flex-item {
-  background: tomato;
+  background: none;
   padding: 5px;
-  width: 200px;
+  width: 400px;
   margin-top: 30px;
-  line-height: 50px;
+  /*line-height: 50px;*/
   color: white;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
+
 }
 
 img {
-  width: 200PX;
+  width: 400PX;
   display: block;
   margin: 0 auto;
 }
