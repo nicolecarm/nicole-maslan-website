@@ -23,13 +23,21 @@ h1 {
 
 p {
   text-align: center;
-  padding: 0 50px 0 50px;
+  padding: 3vh 5vw 3vh 5vw;
+}
+
+h3 {
+  text-align: center;
 }
 
 iframe {
   margin: 0 auto;
   min-width: 400px;
   width: 200px;
+}
+
+#copa-categories {
+  width: 80vw;
 }
 
 .flex-container {
