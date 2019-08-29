@@ -28,53 +28,23 @@ p {
 
 h3 {
   text-align: center;
+  padding: 0 5vw;
 }
 
 iframe {
-  margin: 0 auto;
+  margin: 2vh auto;
   min-width: 400px;
   width: 200px;
-}
-
-
-
-iframe {
   display: block;
-  margin: 0 auto;
-}
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: pink;
-  padding: 5px;
-  width: 200px;
-  /*height: 150px;*/
-  margin-top: 30px;
-  /*border: 2px dashed grey;*/
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
 }
 
 img {
-  width: 200PX;
+  width: 400PX;
   display: block;
   margin: 0 auto;
+  padding: 0 2vw;
+}
+
+#tangram-C, #tangram-G {
+  padding: 0 20vw;
 }
