@@ -32,12 +32,22 @@ h3 {
 
 iframe {
   margin: 0 auto;
-  min-width: 400px;
-  width: 200px;
+  width: 100vw;
+}
+
+#natural-language-questions {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+#questions-logic {
+  width: 70vw;
+  margin: 0 auto;
 }
 
 #copa-categories {
   width: 80vw;
+  margin: 0 auto;
 }
 
 img {
@@ -58,8 +68,22 @@ img {
     width: 10vw;
   }
 
+  iframe {
+    width: 30vw;
+  }
+
+  #natural-language-questions {
+  width: 30vw;
+  }
+
+  #questions-logic {
+  width: 30vw;
+  }
+
   #copa-categories {
   width: 60vw;
   }
+
+  
 }
 
