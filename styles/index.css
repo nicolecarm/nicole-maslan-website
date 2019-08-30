@@ -57,11 +57,35 @@ img {
   h1 {
   text-align: center;
   padding-top: 20px;
-  font-size: 3.5em;
-}
+  font-size: 3.2em;
+  }
+
+  h3 {
+  text-align: center;
+  font-size: 2em;
+  }
+
+  h5{
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 1em;
+  }
 
   #home {
-    width: 10vw;
+    width: 5vw;
+  }
+
+  #shapes, #tangram {
+  width: 10vw;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 7vh;
+  /*padding: 2vh 8vw;*/
+  }
+
+  #tangram {
+    width: 12vw;
+    margin-bottom: 8vh;
   }
 }
 
