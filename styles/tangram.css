@@ -46,9 +46,35 @@ img {
 }
 
 #tangram-C, #tangram-G {
-  padding: 0 20vw;
+  margin: 0 auto;
+  width: 30vw;
 }
 
 #tangram-i {
-  padding: 0 40vw;
+  width: 15vw;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0 20vw;
+  }
+  #home {
+    width: 8vw;
+  }
+
+  #tangram {
+    width: 10vw;
+  }
+
+  #tangram-C, #tangram-G {
+  width: 15vw;
+  margin: 0 auto;
+  }
+
+  #tangram-i {
+  width: 8vw;
+  margin: 0 auto;
+  }
+
 }

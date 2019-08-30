@@ -40,38 +40,26 @@ iframe {
   width: 80vw;
 }
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  /*height: 150px;*/
-  margin-top: 30px;
-  /*border: 2px dashed grey;*/
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
 img {
   width: 200PX;
   display: block;
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0 20vw;
+  }
+  #home {
+    width: 6vw;
+  }
+
+  #shapes {
+    width: 10vw;
+  }
+
+  #copa-categories {
+  width: 60vw;
+  }
+}
+
