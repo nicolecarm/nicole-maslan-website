@@ -19,7 +19,7 @@
   <h1>Linguistic Conventions</h1>
 
   <p>
-    While working in <a href="https://cocolab.stanford.edu/">Stanford's Computation and Cognition Lab</a>, I researched how people name something they have never seen before. The video below documents the game I built using node.JS, CSS, HTML, and GitHub.
+    While working in <a href="https://cocolab.stanford.edu/">Stanford's Computation and Cognition Lab</a>, I researched how people conventionalize the names of unfamiliar objects.
   </p>
 
   <h3>
@@ -33,15 +33,19 @@
   <img src="../images/tangrams-grid.png" alt="grid of ambiguous tangram shapes used in original Clark & Wilkes-Gibbs (1986) experiment"/>
 
   <p>
-    In the experiment, the "matcher" and "director" sat across a table from each other, seperated by a screen 
+    During the experiment, the "matcher" and "director" sat across a table from each other, seperated by an opaque screen. They each had a grid of tangram shapes like the one shown above, arranged in different orders. Their goal was to match the order of tangrams on their grid through verbal communication.
   </p>
 
   <p>
-    As thorough as their experiment was, since they did their experiment in person they collected a data from a small set of participants, which created difficulties for examining the processes at work in great detail.
+    Each pair or participants played six rounds, where a round was considered completed when the pair believed that their boards matched.
   </p>
 
   <p>
-    As a solution to this, I set about digitalizing their experiment using web development frameworks. This would enable me to collect data from many participants quickly and to easily analyze their dialogue with modern natural language processing tools.
+    Speech between participants was done in person, which captured natural communication very well but limited the amount of data that could be gathered. 
+  </p>
+
+  <p>
+    In order to gather more data and thus perform more significant and detailed analyses, I set about digitalizing their experiment using a web development framework. This would enable me to collect data from many participants quickly and to easily analyze their dialogue with modern natural language processing tools.
   </p>
 
   <h3>
@@ -49,11 +53,7 @@
   </h3>
 
   <p>
-    I modified an existing code base used by the CoCo lab to study references. The overall Node.js framework remained the same but I added a chat panel and workspace where players could drag objects around and watch their partner do so in real time. The GitHub repository for the tangrams replication game can be accessed <a href="https://github.com/hawkrobe/tangrams_replication">here</a>.
-  </p>
-
-  <p>
-    An example of the final rendering of the game is shown below.
+    I modified an existing code base used by the CoCo lab to study references. The overall Node.js framework remained the same but I added a chat panel and workspace where players could drag objects around and watch their partner do so in real time. The GitHub repository for the tangrams replication game can be accessed <a href="https://github.com/hawkrobe/tangrams_replication">here</a> and an example of the game in action is shown below.
   </p>
 
   <iframe width="400" height="315" src="https://www.youtube.com/embed/EoNvK-d9ps8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" alt="video of the tangrams game I designed" allowfullscreen></iframe>
@@ -71,11 +71,11 @@
   </h3>
 
   <p>
-    The core of my analysis revolved around measuring how well the co-occurance of a given word used to describe a given tangram at the start of the game predicted the words that were consistently used to describe the tangram in the final round of the game, where the tangram's name could be considered conventionalized.
+    The core of my analysis revolved around measuring how well the co-occurance of a given word used to describe a given tangram at the start of the game predicted the words that were consistently used to describe that tangram in the final round of the game, where the tangram's name could be considered conventionalized.
   </p>
 
   <p>
-    My first step working with the data involved hand-coding the utterance used to describe each tangram. After doing this, I measured the co-occurence value of a word by calculating its pointwise mutual information (PMI) value. To compute this, I essentially counted the frequency that a given word x occured when speaking about tangram y and then counted the global frequency of the given word x used to describe all tangrams in that round.
+    My first step working with the data involved hand-coding the tangram the utterances of the matcher and director referred to during each round of their game. After doing this, I measured the co-occurence value of a word by calculating its pointwise mutual information (PMI) value. To compute this, I counted the frequency that a given word x occured when speaking about tangram y and then counted the global frequency of the given word x used to describe all tangrams in that round.
   </p>
 
   <h3>
@@ -87,7 +87,7 @@
   </p>
 
   <p>
-    As the grid of tangrams shown in the image and video above displays, there were 12 tangrams for the participants to describe. In order to keep track of what name went with which tangram, they may have used the uniqueness of a word to a certain shape as a fast and low-cost way to coordinate on what tangram was being referenced. 
+    In order to keep track of what name went with each of the 12 tangrams, participants may have used the uniqueness of a word for a certain shape as a fast and low-cost way to coordinate on what tangram was being referenced. 
   </p>
 
   <h3>
@@ -95,7 +95,7 @@
   </h3>
 
   <p>
-    Throughout all the data I looked at, pairs of participants had a wide variety of names that were conventialized for the same shapes. Two examples of this for tangram 'C' and 'G' are shown below.
+    Throughout all the data I gathered, pairs of participants had a wide variety of names that were conventialized for the same shapes. Two examples of this for tangram 'C' and 'G' are shown below.
   </p>
 
   <img id="tangram-C" src="../images/ghost-tangram.png" alt="image and conventionalized names for tangram C"/>
@@ -111,12 +111,18 @@
   </p>
 
   <p>
-    Examples like these provide evidence that the conventioalization process can lead to a variety of different phrases. The co-occurance theory supports this, suggesting that conventialization has a level of arbitrariness to it, but that there are also patterns, such as co-occurance, which can describe the conventionalization process despite a wide variety of different phrases.
+    Examples like these provide evidence that a wide variety of phrases can be conventionalized. The co-occurance theory supports this, suggesting that while the terms conventionalized may be somewhat arbitrary across different groups, there are also patterns, such as co-occurance, which can consistently explain the conventionalization at work.
   </p>
 
+  <h3>
+    Further Reading
+  </h3>
+
   <p>
-    For a more thorough description of the work I did, you can view my thesis <a id='thesis' href="http://nicolemaslan.thelionwoke.com/pdf/thesis.pdf">here</a>. If you want to view further work using this application, check out <a href="https://cocolab.stanford.edu/papers/HawkinsEtAl2018-Cogsci.pdf"/>this paper</a> co-authored by my advisor for the project, Robert XD Hawkins.
+    For a more thorough description of the work I did, you can view my thesis <a id='thesis' href="http://nicolemaslan.thelionwoke.com/pdf/thesis.pdf">here</a>. To view other work from the CoCo using this application, check out <a href="https://cocolab.stanford.edu/papers/HawkinsEtAl2018-Cogsci.pdf"/>this paper</a>.
   </p>
+
+  <img id='tangram-i' src="../images/tangram-i.png" alt="tangram-i"/>
 
 </body>
 </html>
