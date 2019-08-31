@@ -33,8 +33,7 @@ h3 {
 
 iframe {
   margin: 2vh auto;
-  min-width: 400px;
-  width: 200px;
+  width: 100vw;
   display: block;
 }
 
@@ -45,9 +44,13 @@ img {
   padding: 0 2vw;
 }
 
+#tangram-grid {
+  width: 100vw;
+}
+
 #tangram-C, #tangram-G {
   margin: 0 auto;
-  width: 30vw;
+  width: 40vw;
 }
 
 #tangram-i {
@@ -67,6 +70,10 @@ img {
     width: 10vw;
   }
 
+  iframe {
+    width: 30vw;
+  }
+
   #tangram-C, #tangram-G {
   width: 15vw;
   margin: 0 auto;
@@ -75,6 +82,10 @@ img {
   #tangram-i {
   width: 8vw;
   margin: 0 auto;
+  }
+
+  #tangram-grid {
+    width: 40vw;
   }
 
 }
